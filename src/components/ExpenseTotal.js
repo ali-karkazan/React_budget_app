@@ -1,4 +1,4 @@
-import React, { useCallback, useContext } from "react";
+import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 const ExpenseTotal = () => {
     const { expenses } = useContext(AppContext);
